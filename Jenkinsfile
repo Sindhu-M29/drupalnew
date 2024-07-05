@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        INSTANCE_IP = '107.21.87.127' // Update with your instance2 IP address
+        INSTANCE_IP = '18.234.112.60' // Update with your instance2 IP address
     }
     
     stages {
