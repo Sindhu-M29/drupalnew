@@ -77,9 +77,9 @@
  *
  * @code
  * $databases['default']['default'] = [
- *   'database' => 'database_name',
- *   'username' => 'sql_username',
- *   'password' => 'sql_password',
+ *   'database' => drupal,
+ *   'username' => drupal1,
+ *   'password' => Azureuser@29,
  *   'host' => 'localhost',
  *   'port' => '3306',
  *   'driver' => 'mysql',
@@ -193,9 +193,9 @@ $databases = [];
  * @code
  *   $databases['default']['default'] = [
  *     'driver' => 'pgsql',
- *     'database' => 'database_name',
- *     'username' => 'sql_username',
- *     'password' => 'sql_password',
+ *     'database' => drupal,
+ *     'username' => drupal1,
+ *     'password' => Azureuser@29,
  *     'host' => 'localhost',
  *     'prefix' => '',
  *   ];
@@ -215,9 +215,9 @@ $databases = [];
  *     'driver' => 'my_driver',
  *     'namespace' => 'Drupal\my_module\Driver\Database\my_driver',
  *     'autoload' => 'modules/my_module/src/Driver/Database/my_driver/',
- *     'database' => 'database_name',
- *     'username' => 'sql_username',
- *     'password' => 'sql_password',
+ *     'database' => drupal,
+ *     'username' => drupal1,
+ *     'password' => Azureuser@29,
  *     'host' => 'localhost',
  *     'prefix' => '',
  *   ];
@@ -230,9 +230,9 @@ $databases = [];
  *     'driver' => 'my_driver',
  *     'namespace' => 'Drupal\my_module\Driver\Database\my_driver',
  *     'autoload' => 'modules/my_module/src/Driver/Database/my_driver/',
- *     'database' => 'database_name',
- *     'username' => 'sql_username',
- *     'password' => 'sql_password',
+ *     'database' => drupal,
+ *     'username' => drupal1,
+ *     'password' => Azureuser@29,
  *     'host' => 'localhost',
  *     'prefix' => '',
  *     'dependencies' => [
